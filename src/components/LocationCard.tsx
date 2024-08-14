@@ -112,8 +112,11 @@ const LocationCard = ({
 
   return (
     <div
-      onClick={() => toast.info(`this goeas to ${city} city `)}
-      className={cn("w-full cursor-pointer h-full relative", className)}
+      onClick={() => toast.info(`this goes to ${city} city `)}
+      className={cn(
+        "w-full cursor-pointer select-none  h-full relative",
+        className
+      )}
     >
       <div className={` relative h-full w-full grid`}>
         <div
