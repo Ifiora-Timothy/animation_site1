@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   openGraph: {
     images: [
       {
-        url: "https://fecamds-rosary-challenge.onrender.com/logo.jpg",
+        url: "https://weekly-issue1-animation-site.vercel.app/logo.jpg",
         width: 255,
         height: 255,
       },
